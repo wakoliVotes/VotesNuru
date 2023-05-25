@@ -1,0 +1,17 @@
+body {
+    background: lightblue;
+    text-align: center;
+    display: block;
+}
+#survey-form {
+    width: 50%;
+    background: rgb(183, 184, 216);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+}
+
+#name-label, #email-label, #number-label {
+    font-size: 28px;
+}
