@@ -26,9 +26,22 @@
     <h1 id="title">Survery Form</h1>
     <p id="description">This is a demo Survey Form</p>
     <form id="survey-form" action="">
-      <input id="name" type="text" />
-      <input id="email" type="text" />
-      <input id="number" type="number" />
+      <label id="name-label" for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter Name" />
+      <label id="email-label" for="email">Email</label>
+      <input id="email" type="text"  placeholder="Enter your email address" />
+      <label id="number-label" for="number"></label>
+      <input id="number" type="number" placeholder="Number" /> <br>
+      <label for="age">Number</label> <br>
+      <input type="number" min="24" max="75" placeholder="Enter Number" >
+      <select name="" id="dropdown">
+        <option value="fulltime">Full Time</option>
+        <option value="parttime">Part-Time</option>
+        <option value="fixedterm">Fixed-Term Contract</option>
+        <option value="apprenticeship">Apprenticeship</option>
+        <option value="traineeship">Traineeship</option>
+        <option value="internship">Internship</option>
+      </select>
     </form>
   </body>
 </html>
