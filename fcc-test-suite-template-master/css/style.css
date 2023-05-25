@@ -10,6 +10,9 @@ body {
     border-radius: 10px;
     text-align: center;
     display: block;
+    position: relative;
+    left: 25%;
+    top: 100px;
 }
 
 #name-label, #email-label, #number-label {
