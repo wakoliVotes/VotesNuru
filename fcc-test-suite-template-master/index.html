@@ -29,11 +29,11 @@
       <label id="name-label" for="name">Name</label>
       <input id="name" type="text" placeholder="Enter Name" />
       <label id="email-label" for="email">Email</label>
-      <input id="email" type="text"  placeholder="Enter your email address" />
+      <input id="email" type="text" placeholder="Enter your email address" />
       <label id="number-label" for="number"></label>
-      <input id="number" type="number" placeholder="Number" /> <br>
-      <label for="age">Number</label> <br>
-      <input type="number" min="24" max="75" placeholder="Enter Number" >
+      <input id="number" type="number" placeholder="Number" /> <br />
+      <label for="age">Number</label> <br />
+      <input type="number" min="24" max="75" placeholder="Enter Number" />
       <select name="" id="dropdown">
         <option value="fulltime">Full Time</option>
         <option value="parttime">Part-Time</option>
@@ -42,6 +42,26 @@
         <option value="traineeship">Traineeship</option>
         <option value="internship">Internship</option>
       </select>
+      <p>Marriage Status</p>
+      <input type="radio" id="Yes" name="marriage-status" value="Yes" />
+      <label for="Yes">Married</label>
+      <input type="radio" name="marriage-status" value="No" />
+      <label for="No">Single</label>
+      <input type="checkbox" id="mobility" name="mobility" value="mobile" />
+      <label for="mobility">I have a car</label>
+      <input type="checkbox" id="shelter" name="shelter" value="shelter" />
+      <label for="shelter">I have a House</label>
+      <input type="checkbox" id="kids" name="kids" value="kids" />
+      <label for="kids">I have a kid</label>
+      <textarea
+        name="textarea"
+        rows="5"
+        cols="30"
+        placeholder="additional comments"
+      >
+      </textarea>
+      <label for="textarea">additional comments</label>
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
